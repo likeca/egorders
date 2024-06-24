@@ -47486,7 +47486,7 @@ while(true)switch(s){case 0:n=A.h($.Ir().i(0,"BASE_URL"))
 m=A.aQ6(a)
 if(p.db)A.a_("Can not emit events to disposed clients")
 s=3
-return A.X(p.gWi().BD(n+"/api/clients/"+p.go+"/orders/",m,null,new A.ack(),null,null,null,t.JN),$async$zK)
+return A.X(p.gWi().BD(n+"/api/clients/"+p.go+"/order/",m,null,new A.ack(),null,null,null,t.JN),$async$zK)
 case 3:o=c
 if(!new A.pE(o.c).uD(200,299)){n=o.d
 if(n==null)n="Error placing order."
@@ -47552,7 +47552,7 @@ if(q==null){q=self.window.devicePixelRatio
 if(q===0)q=1}return A.zH(s,B.dj,null,r.dl(0,q).a)}},
 $S:227}
 A.a8C.prototype={
-$0(){A.awp($.aX(),"/clients/"+this.a.fy+"/orders/",t.z)},
+$0(){A.awp($.aX(),"/clients/"+this.a.fy+"/order/",t.z)},
 $S:0}
 A.uD.prototype={
 J(a){var s=null,r=$.aA()
@@ -100061,7 +100061,7 @@ s($,"b_c","aJ6",()=>$.rT().gqG())
 s($,"b_d","aJ7",()=>$.rT().gqG())
 s($,"b_e","aJ5",()=>$.rT().gqG())
 r($,"aWc","aGX",()=>{var q=null,p=t.z
-return A.b([A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/",!0,new A.a1n(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/orders/",!0,new A.a1o(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/order-payment/",!0,new A.a1p(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/order-result/",!0,new A.a1q(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/orderPayPal/",!0,new A.a1r(),q,q,q,!0,!0,q,B.fi,B.bM,q,p)],t.RT)})
+return A.b([A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/",!0,new A.a1n(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/order/",!0,new A.a1o(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/order-payment/",!0,new A.a1p(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/clients/:clientId/order-result/",!0,new A.a1q(),q,q,q,!0,!0,q,B.fi,B.bM,q,p),A.zv(q,q,new A.nD(),B.eF,B.eG,B.S,q,!1,q,!0,q,"/orderPayPal/",!0,new A.a1r(),q,q,q,!0,!0,q,B.fi,B.bM,q,p)],t.RT)})
 s($,"aZg","aIu",()=>A.axh(1,1,500))
 r($,"aWa","aGW",()=>new A.IQ(B.w,B.w))
 s($,"b_4","aJ3",()=>new A.SS())
