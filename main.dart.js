@@ -8968,7 +8968,7 @@ this.b=b},
 acg:function acg(a,b){this.a=a
 this.b=b},
 aci:function aci(a){this.a=a},
-aVf(a,b,c,d,e,f,g,h,i){var s=A.h($.aJd().i(0,"BASE_URL"))
+aVf(a,b,c,d,e,f,g,h,i){var s=A.h($.aJd().i(0,"baseURL"))
 A.aLU($.aP(),new A.yU(0.6,0.4,0.8,!1,new A.av1(e,i,s,f,a,d,g,b,c,h),null),!0,!0,t.z)},
 av1:function av1(a,b,c,d,e,f,g,h,i,j){var _=this
 _.a=a
@@ -9007,7 +9007,7 @@ _.f=f},
 Ng:function Ng(a){this.a=a},
 ack:function ack(){},
 acj:function acj(a){this.a=a},
-aVe(a){var s,r,q,p,o,n,m="My Order",l=null,k=A.h($.aJb().i(0,"BASE_URL")),j=$.aP(),i=a.cy,h=i.a
+aVe(a){var s,r,q,p,o,n,m="My Order",l=null,k=A.h($.aJb().i(0,"baseURL")),j=$.aP(),i=a.cy,h=i.a
 h=h!==""?A.dF(m)+"\n"+h:A.dF(m)
 s=t.p
 r=A.b([],s)
@@ -47370,7 +47370,7 @@ A.ac8.prototype={
 $1(a){var s=this.a,r=a.r
 r.toString
 s.cx=r
-r=$.azg().i(0,"BASE_URL")
+r=$.azg().i(0,"baseURL")
 r.toString
 s.go=A.Ij(r,"media",s.cx.b)
 $.aP()
@@ -47462,7 +47462,7 @@ A.qd.prototype={
 oZ(){var s=0,r=A.S(t.XQ),q,p=this,o,n
 var $async$oZ=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(p.wu(0,A.h($.It().i(0,"BASE_URL"))+"/api/clients/"+p.go+"/",new A.acy(),t.zi),$async$oZ)
+return A.X(p.wu(0,A.h($.It().i(0,"baseURL"))+"/api/clients/"+p.go+"/",new A.acy(),t.zi),$async$oZ)
 case 3:n=b
 if(!new A.pG(n.c).uD(200,299)){o=n.d
 if(o==null)o="Error fetching categories."
@@ -47475,7 +47475,7 @@ return A.R($async$oZ,r)},
 oY(){var s=0,r=A.S(t.x3),q,p=this,o,n
 var $async$oY=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(p.wu(0,A.h($.It().i(0,"BASE_URL"))+"/api/clients/"+p.go+"/categories/",new A.acx(),t.k5),$async$oY)
+return A.X(p.wu(0,A.h($.It().i(0,"baseURL"))+"/api/clients/"+p.go+"/categories/",new A.acx(),t.k5),$async$oY)
 case 3:n=b
 if(!new A.pG(n.c).uD(200,299)){o=n.d
 if(o==null)o="Error fetching categories."
@@ -47488,7 +47488,7 @@ return A.R($async$oY,r)},
 p6(){var s=0,r=A.S(t.K7),q,p=this,o,n
 var $async$p6=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(p.wu(0,A.h($.It().i(0,"BASE_URL"))+"/api/clients/"+p.go+"/items/",new A.acA(),t.jH),$async$p6)
+return A.X(p.wu(0,A.h($.It().i(0,"baseURL"))+"/api/clients/"+p.go+"/items/",new A.acA(),t.jH),$async$p6)
 case 3:n=b
 if(!new A.pG(n.c).uD(200,299)){o=n.d
 if(o==null)o="Error fetching items."
@@ -47501,7 +47501,7 @@ return A.R($async$p6,r)},
 oW(){var s=0,r=A.S(t.wu),q,p=this,o,n
 var $async$oW=A.T(function(a,b){if(a===1)return A.P(b,r)
 while(true)switch(s){case 0:s=3
-return A.X(p.wu(0,A.h($.It().i(0,"BASE_URL"))+"/api/clients/"+p.go+"/addons/",new A.acv(),t.EI),$async$oW)
+return A.X(p.wu(0,A.h($.It().i(0,"baseURL"))+"/api/clients/"+p.go+"/addons/",new A.acv(),t.EI),$async$oW)
 case 3:n=b
 if(!new A.pG(n.c).uD(200,299)){o=n.d
 if(o==null)o="Error fetching addons."
@@ -47513,7 +47513,7 @@ break}case 1:return A.Q(q,r)}})
 return A.R($async$oW,r)},
 zL(a){var s=0,r=A.S(t.GX),q,p=this,o,n,m
 var $async$zL=A.T(function(b,c){if(b===1)return A.P(c,r)
-while(true)switch(s){case 0:n=A.h($.It().i(0,"BASE_URL"))
+while(true)switch(s){case 0:n=A.h($.It().i(0,"baseURL"))
 m=A.aQb(a)
 if(p.db)A.a_("Can not emit events to disposed clients")
 s=3
@@ -47677,7 +47677,7 @@ A.Nd.prototype={
 U8(a,b){var s
 for(s=J.at(b);s.u();)if(s.gL(s).gze()===a)return!0
 return!1},
-J(a){return A.jd(new A.ace(this,A.h($.aJe().i(0,"BASE_URL"))),null,null,null,t.yR)},
+J(a){return A.jd(new A.ace(this,A.h($.aJe().i(0,"baseURL"))),null,null,null,t.yR)},
 gra(){return this.r},
 grb(){return this.w}}
 A.ace.prototype={
@@ -47722,7 +47722,7 @@ p.cn(0)},
 $S:0}
 A.Ne.prototype={
 J(a){var s=null
-return A.jc(s,A.jd(new A.ach(this,A.h($.aJc().i(0,"BASE_URL"))),s,s,s,t.yR),B.am,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.aci(this),s,s,s,s,s,s)},
+return A.jc(s,A.jd(new A.ach(this,A.h($.aJc().i(0,"baseURL"))),s,s,s,t.yR),B.am,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.aci(this),s,s,s,s,s,s)},
 grb(){return this.x},
 gra(){return this.y}}
 A.ach.prototype={
@@ -47851,7 +47851,7 @@ A.a1y.prototype={
 $0(){return new A.uG(new A.bj(null,t.am),null)},
 $S:299}
 A.a1z.prototype={
-$0(){return new A.uH(A.h($.azg().i(0,"BASE_URL")),null)},
+$0(){return new A.uH(A.h($.azg().i(0,"baseURL")),null)},
 $S:315}
 A.a1A.prototype={
 $0(){$.Rn.toString
